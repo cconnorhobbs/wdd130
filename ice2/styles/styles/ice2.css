@@ -1,3 +1,23 @@
-#background {
-   background-color: darkgrey 
+body {
+   background: #636363
+}
+
+.row {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.column {
+    flex: 1; 
+    max-width: 300px; 
+    margin: 50px; 
+}
+
+.desk, .graphic, .person {
+    border-radius: 1000px;
+    border: 15px solid #3b3b3b;
+    width: 100%; 
+    height: auto; 
 }
