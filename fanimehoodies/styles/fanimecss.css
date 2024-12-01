@@ -57,15 +57,23 @@ nav {
     font-size: 100px;
 }
 
+#hero-msg h4 {
+    text-align: center;
+    color: white; 
+    font-family: 'Playfair Display';
+    font-size: 100px;
+}
+
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
     margin-top: 100px;
 }
 
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr; /* make this bigger */
+    grid-template-columns: 1fr 3fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
     margin-top: -100px; 
 }
 
@@ -74,3 +82,37 @@ nav {
     grid-row: 1/3;
     z-index: -1;
 }
+
+.home-grid {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    display: center;
+    grid-template-columns: 1fr 3fr 1fr; 
+  }
+   
+  .column {
+    display: flex;
+    flex-direction: row;
+    gap: 100px; 
+  }
+   
+  .jjk-card, .nar-card, .op-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 350px; 
+  }
+
+  .card-img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    border: 15px solid #7b0d1e;
+  }
+  
+  .jjk-card h2, .nar-card h2, .op-card h2 {
+    text-align: center;
+    margin-top: 10px; 
+  }
+  
