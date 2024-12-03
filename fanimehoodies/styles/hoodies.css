@@ -1,0 +1,65 @@
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 100px
+}
+
+body {
+    background-color: #f8e5ee;
+    font-family: 'Source Sans pro';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #7b0d1e;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  nav  {
+    list-style-type: none;
+    display: flex;
+  
+  }
+  
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav a:link, nav a:visited {
+    color: white;
+  }
+
+  nav a:hover {
+    color: white;
+    background-color: #9f2042;
+}
+
+.card-img { 
+    height: auto; 
+    border-radius: 10px;
+    border: 15px solid #7b0d1e;
+  }
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.jjkh-card, .narh-card, .oph-card, .dsh-card {
+    text-align: center;
+    margin-top: 10px; 
+}
