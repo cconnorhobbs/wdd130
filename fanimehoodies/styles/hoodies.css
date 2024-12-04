@@ -45,6 +45,18 @@ nav {
     background-color: #9f2042;
 }
 
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
 .card-img { 
     height: auto; 
     border-radius: 10px;
@@ -63,3 +75,4 @@ main {
     text-align: center;
     margin-top: 10px; 
 }
+
