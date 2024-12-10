@@ -49,6 +49,18 @@ nav {
     background-color: #9f2042;
 }
 
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
 
 /* Ensure the body and html are set to take full width and height */
 html, body {
